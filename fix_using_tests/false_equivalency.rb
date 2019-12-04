@@ -1,8 +1,8 @@
 require 'pry'
 
-# def get_user_input
-#   gets.chomps
-# end
+def get_user_input
+  gets.chomps
+end
 
 def prompt_user
   puts "What would you like to do?"
@@ -20,7 +20,7 @@ end
 
 def runner
   prompt_user
-  selection(num)
+  selection(get_user_input)
 end
 
 #binding.pry 
