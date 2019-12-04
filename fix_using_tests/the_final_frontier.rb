@@ -14,8 +14,9 @@ def crew
 end
 
 def greet_crew (crew)
-binding.pry
-  crew.each {|crew_member| "Hello #{crew_member}."}
+#binding.pry
+  crew.each do {|crew_member| "Hello #{crew_member}."}
+end
 end
 
 def engage
