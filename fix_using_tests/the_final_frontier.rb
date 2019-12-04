@@ -16,7 +16,6 @@ end
 def greet_crew (crew)
 #binding.pry
   crew.map  {|crew_member| "Hello #{crew_member}."}
-
 end
 
 def engage
